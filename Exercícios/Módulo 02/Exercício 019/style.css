@@ -1,0 +1,69 @@
+@charset "UTF-8";
+
+/*
+HTML é 'id' = CSS é '#' (só pode um elemento)
+HTML é 'class' = CSS é '.' (pode mais de um elemento)
+*/
+
+body {
+    background-color: #bb8fb9; 
+    font-family: 'Croogla', sans-serif;
+}
+
+h1 {
+    color: #480840;
+}
+
+h1#principal{
+    text-align: center;
+    color: #f6f7f8;
+    background-color: #480840;
+    border-radius: 5px;
+}
+
+h1.html5 {
+    text-align: left;
+    color: #f6f7f8;
+    background-color: #480840;
+    border-radius: 5px; 
+}
+
+h1.css3 {
+    text-align: left;
+    color: #f6f7f8;
+    background-color: #480840;
+    border-radius: 5px; 
+}
+
+h2 {
+    color: #761f74;
+}
+
+h2.basico {
+    text-align: left;
+    font-weight: bold;
+    color: #f6f7f8;
+    background-color: #761f74;
+    border-radius: 5px;
+}
+
+h2.intermediario {
+    text-align: left;
+    font-weight: bold;
+    color: #f6f7f8;
+    background-color: #761f74;
+    border-radius: 5px;
+}
+
+h2.avancado {
+    text-align: left;
+    font-weight: bold;
+    color: #f6f7f8;
+    background-color: #761f74;
+    border-radius: 5px;
+}
+
+p {
+    text-indent: 40px;
+    color: #010101;
+}
